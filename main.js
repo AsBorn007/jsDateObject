@@ -9,10 +9,32 @@ let newDateMathod = new Date (2025 , 0 , 9);
 console.log(newDateMathod.toDateString())
 console.log(newDateMathod.toLocaleTimeString())
 
-
+// this give use miliseconds
 let milisecons = Date.now();
 console.log(milisecons)
 
+// to find the seconds 
 let seconds =  Date.now();
 let findSecons = Math.floor(seconds/1000);
 console.log(findSecons)
+
+// to find specific month
+let findMonth =  new Date();
+console.log(findMonth.getMonth())
+
+// to find specific year
+let findYear=  new Date();
+console.log(findYear.getFullYear())
+
+// to find specific Date
+let findDate=  new Date();
+console.log(findDate.getDate())
+
+
+// to find specific Day
+let findDay=  new Date();
+console.log(findDay.getDay())
+
+const finddDay=  new Date();
+let dayName = finddDay.toLocaleString('en-US', { weekday: 'long' });
+console.log(dayName);

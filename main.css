@@ -1,0 +1,15 @@
+#mainDate,
+#DateObject,
+#DateObjectString,
+#DateObjectUTCstring{
+    width: 100%;
+    max-width: 80%;
+    margin:  12PX auto;
+    padding: 12px;
+    background: lightgrey;
+    color: royalblue;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid royalblue;
+    box-shadow: 0 0 15px 0px rgba(65, 105, 225, 0.527);
+}

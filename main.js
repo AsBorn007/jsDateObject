@@ -31,10 +31,17 @@ let findDate=  new Date();
 console.log(findDate.getDate())
 
 
-// to find specific Day
+// to find specific Day give its index value
 let findDay=  new Date();
 console.log(findDay.getDay())
 
+// to find specific DayName
 const finddDay=  new Date();
 let dayName = finddDay.toLocaleString('en-US', { weekday: 'long' });
 console.log(dayName);
+
+// find full Day Name short name and narrow name
+let findFullDayName = new Date();
+console.log(findFullDayName.toLocaleString('en-US', { weekday: 'long' }));   // Full day name (e.g., "Monday")
+console.log(findFullDayName.toLocaleString('en-US', { weekday: 'short' }));  // Abbreviated day name (e.g., "Mon")
+console.log(findFullDayName.toLocaleString('en-US', { weekday: 'narrow' })); // Narrow day name (e.g., "M")
